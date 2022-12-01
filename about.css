@@ -1,0 +1,16 @@
+main{
+    width: 80vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 5vh;
+    height: 64.5vh;
+}
+
+main h2{
+    margin-bottom: -15px;
+}
+
+.mission, .about{
+    margin-top: 50px;
+}
+
