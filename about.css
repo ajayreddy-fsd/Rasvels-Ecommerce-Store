@@ -1,9 +1,7 @@
-main{
-    width: 80vw;
+main {
+    width: 100%;
     text-align: center;
     margin: auto;
-    margin-top: 5vh;
-    height: 64.5vh;
 }
 
 main h2{
@@ -11,6 +9,19 @@ main h2{
 }
 
 .mission, .about{
-    margin-top: 50px;
+    margin: 50px 0;
 }
 
+.content {
+    padding: 0 10vw;
+}
+
+.about-banner {
+    width: 92vw;
+    text-align: center;
+    margin: auto;
+}
+
+.about-banner span {
+    margin: auto;
+}
