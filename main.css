@@ -20,6 +20,7 @@ a {
 header {
     background-color: #1c2120;
     height: 15vh;
+    min-height: 100px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -55,7 +56,7 @@ a.nav-items:hover {
 }
 
 .search-wrapper form input {
-    width: 75%;
+    width: 100%;
     height: 100%;
     padding: 0px 0px 0px 15px;
     border-radius: 25px 0 0 25px;
@@ -115,12 +116,9 @@ a.nav-items:hover {
 
 .banner-container {
     width: 92vw;
-    /* height: 50vh; */
+    text-align: center;
     margin: auto;
-    /* background-image: url('images/carousel1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
+    max-height: 400px;
 }
 
 .deals-container {
@@ -195,6 +193,7 @@ a.nav-items:hover {
     header {
         justify-content: center;
         height: 25vh;
+        min-height: 150px;
         padding: 10px;
     }
     nav {

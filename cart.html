@@ -14,8 +14,8 @@
         <img src="images/logo 2b.png" />
       </div>
       <nav class="nav-container">
-        <a href="#" class="nav-items home">HOME</a>
-        <a href="products.html" class="nav-items products">PRODUCTS</a>
+        <a href="./index.html" class="nav-items home">HOME</a>
+        <a href="./products.html" class="nav-items products">PRODUCTS</a>
         <a href="./about.html" class="nav-items about">ABOUT</a>
         <a href="./contact_us.html" class="nav-items contact-us">CONTACT US</a>
       </nav>
@@ -26,13 +26,10 @@
         </form>
       </div>
       <div class="cart-wrapper">
-        <button class="cart"><img src="images/cart 2.png" /></button>
+        <button class="cart"><a href="./cart.html"><img src="images/cart 2.png" /></a></button>
       </div>
     </header>
     <main class="content-wrapper">
-      <div class="banner-container">
-        <img src="images/carousel1.png" width="100%" />
-      </div>
       <div class="cart-container">
         <div class="container">
             <div style="text-align:center">
@@ -43,7 +40,6 @@
                     <!-- cart content Start -->
                     <div class="cart-content">
                         <div class="cart-inner">
-                           
                                 <form action="#">
                                     <div class="table-content cart-table-content">
                                         <table>
@@ -67,8 +63,8 @@
                                                     <td data-label="Quantity" class="cart-pro-qty"
                                                         style="text-align: center;">
                                                         <div class="cart-qty-plus-minus">
-                                                            <input  type="text"
-                                                                name="cartqtybutton" value="1" />
+                                                            <input type="number"
+                                                                name="cartqtybutton" value="1" min="1" />
                                                         </div>
                                                     </td>
                                                     <td data-label="Total" class="cart-pro-subtotal">$56.00</td>
@@ -88,8 +84,8 @@
                                                     <td data-label="Quantity" class="cart-pro-qty"
                                                         style="text-align: center;">
                                                         <div class="cart-qty-plus-minus">
-                                                            <input  type="text"
-                                                                name="cartqtybutton" value="1" />
+                                                            <input type="number"
+                                                                name="cartqtybutton" value="1" min="1" />
                                                         </div>
                                                     </td>
                                                     <td data-label="Total" class="cart-pro-subtotal">$75.00</td>
@@ -109,8 +105,8 @@
                                                     <td data-label="Quantity" class="cart-pro-qty"
                                                         style="text-align: center;">
                                                         <div class="cart-qty-plus-minus">
-                                                            <input  type="text"
-                                                                name="cartqtybutton" value="1" />
+                                                            <input type="number"
+                                                                name="cartqtybutton" value="1" min="1" />
                                                         </div>
                                                     </td>
                                                     <td data-label="Total" class="cart-pro-subtotal">$48.00</td>
@@ -130,8 +126,8 @@
                                                     <td data-label="Quantity" class="cart-pro-qty"
                                                         style="text-align: center;">
                                                         <div class="cart-qty-plus-minus">
-                                                            <input type="text"
-                                                                name="cartqtybutton" value="1" />
+                                                            <input type="number"
+                                                                name="cartqtybutton" value="1" min="1" />
                                                         </div>
                                                     </td>
                                                     <td data-label="Total" class="cart-pro-subtotal">$95.00</td>
@@ -216,14 +212,14 @@
                                             <span class="text-right">$80.00</span>
                                         </div>
                                         <div>
-                                            <span class="text-left">Coupan Discount</span>
+                                            <span class="text-left">Coupon Discount</span>
                                         </div>
-                                        <div class="cart-coupan-content">
-                                            <form class="cart-coupan-form" name="cart-coupan-form" method="post"
+                                        <div class="cart-coupon-content">
+                                            <form class="cart-coupon-form" name="cart-coupon-form" method="post"
                                                 action="#">
-                                                <input class="coupan" type="text" required=""
-                                                    placeholder="Enter Your Coupan Code" name="coupan" value="">
-                                                <button class="coupan-btn button btn-primary" type="submit"
+                                                <input class="coupon" type="text" required=""
+                                                    placeholder="Enter Your coupon Code" name="coupon" value="">
+                                                <button class="coupon-btn button btn-primary" type="submit"
                                                     name="subscribe" value="">Apply</button>
                                             </form>
                                         </div>

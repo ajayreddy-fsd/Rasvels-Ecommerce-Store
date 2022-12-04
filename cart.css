@@ -408,7 +408,7 @@ select {
     padding: 0 15px;
 }
 
-.cart-coupan-form {
+.cart-coupon-form {
     display: flex;
     border: 1px solid #ededed;
     padding: 5px;
@@ -455,13 +455,13 @@ select {
     font-weight: 500;
 }
 
-.cart-summary-bottom .cart-summary .cart-coupan-content {
+.cart-summary-bottom .cart-summary .cart-coupon-content {
     display: inline-block;
     margin-bottom: 0;
     width: 100%;
 }
 
-.cart-coupan-form .coupan {
+.cart-coupon-form .coupon {
     display: inline-block;
     vertical-align: top;
     line-height: 35px;
@@ -477,7 +477,7 @@ select {
     letter-spacing: 0.5px;
 }
 
-.cart-coupan-form .button {
+.cart-coupon-form .button {
     font-size: 16px;
     text-align: center;
     padding: 0 15px;
