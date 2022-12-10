@@ -118,7 +118,6 @@ a.nav-items:hover {
     width: 92vw;
     text-align: center;
     margin: auto;
-    max-height: 400px;
 }
 
 .deals-container {
@@ -186,7 +185,6 @@ a.nav-items:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 25px;
 }
 
 @media only screen and (max-width: 990px) {

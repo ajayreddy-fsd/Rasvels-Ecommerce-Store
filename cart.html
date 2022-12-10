@@ -26,219 +26,331 @@
         </form>
       </div>
       <div class="cart-wrapper">
-        <button class="cart"><a href="./cart.html"><img src="images/cart 2.png" /></a></button>
+        <button class="cart">
+          <a href="./cart.html"><img src="images/cart 2.png" /></a>
+        </button>
       </div>
     </header>
     <main class="content-wrapper">
       <div class="cart-container">
         <div class="container">
-            <div style="text-align:center">
-                <h2>Cart</h2>
+          <div style="text-align: center">
+            <h2>Cart</h2>
+          </div>
+          <div class="row">
+            <div class="cart-leftside col-lg-8 col-md-12">
+              <!-- cart content Start -->
+              <div class="cart-content">
+                <div class="cart-inner">
+                  <form action="#">
+                    <div class="table-content cart-table-content">
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th style="text-align: center">Quantity</th>
+                            <th>Total</th>
+                            <th></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td data-label="Product" class="cart-pro-name">
+                              <a href="#"
+                                ><img
+                                  class="cart-pro-img mr-4"
+                                  src="images/cart/1.jpg"
+                                  alt=""
+                                />Stylish Baby Shoes</a
+                              >
+                            </td>
+                            <td data-label="Price" class="cart-pro-price">
+                              <span class="amount">$56.00</span>
+                            </td>
+                            <td
+                              data-label="Quantity"
+                              class="cart-pro-qty"
+                              style="text-align: center"
+                            >
+                              <div class="cart-qty-plus-minus">
+                                <input
+                                  type="number"
+                                  name="cartqtybutton"
+                                  value="1"
+                                  min="1"
+                                />
+                              </div>
+                            </td>
+                            <td data-label="Total" class="cart-pro-subtotal">
+                              $56.00
+                            </td>
+                            <td data-label="Remove" class="cart-pro-remove">
+                              <a href="#">
+                                <img
+                                  class="trash-icon"
+                                  src="images/cart/trash.png"
+                                  width="25%"
+                                  height="25%"
+                                />
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td data-label="Product" class="cart-pro-name">
+                              <a href="#"
+                                ><img
+                                  class="cart-pro-img mr-4"
+                                  src="images/cart/2.jpg"
+                                  alt=""
+                                />Unisex Fully Solid Hoodie</a
+                              >
+                            </td>
+                            <td data-label="Price" class="cart-pro-price">
+                              <span class="amount">$75.00</span>
+                            </td>
+                            <td
+                              data-label="Quantity"
+                              class="cart-pro-qty"
+                              style="text-align: center"
+                            >
+                              <div class="cart-qty-plus-minus">
+                                <input
+                                  type="number"
+                                  name="cartqtybutton"
+                                  value="1"
+                                  min="1"
+                                />
+                              </div>
+                            </td>
+                            <td data-label="Total" class="cart-pro-subtotal">
+                              $75.00
+                            </td>
+                            <td data-label="Remove" class="cart-pro-remove">
+                              <a href="#">
+                                <img
+                                  class="trash-icon"
+                                  src="images/cart/trash.png"
+                                  width="25%"
+                                  height="25%"
+                                />
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td data-label="Product" class="cart-pro-name">
+                              <a href="#"
+                                ><img
+                                  class="cart-pro-img mr-4"
+                                  src="images/cart/3.jpg"
+                                  alt=""
+                                />Beautiful T-shirt For Women</a
+                              >
+                            </td>
+                            <td data-label="Price" class="cart-pro-price">
+                              <span class="amount">$48.00</span>
+                            </td>
+                            <td
+                              data-label="Quantity"
+                              class="cart-pro-qty"
+                              style="text-align: center"
+                            >
+                              <div class="cart-qty-plus-minus">
+                                <input
+                                  type="number"
+                                  name="cartqtybutton"
+                                  value="1"
+                                  min="1"
+                                />
+                              </div>
+                            </td>
+                            <td data-label="Total" class="cart-pro-subtotal">
+                              $48.00
+                            </td>
+                            <td data-label="Remove" class="cart-pro-remove">
+                              <a href="#">
+                                <img
+                                  class="trash-icon"
+                                  src="images/cart/trash.png"
+                                  width="25%"
+                                  height="25%"
+                                />
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td data-label="Product" class="cart-pro-name">
+                              <a href="#"
+                                ><img
+                                  class="cart-pro-img mr-4"
+                                  src="images/cart/4.jpg"
+                                  alt=""
+                                />Wool Hat For Men</a
+                              >
+                            </td>
+                            <td data-label="Price" class="cart-pro-price">
+                              <span class="amount">$95.00</span>
+                            </td>
+                            <td
+                              data-label="Quantity"
+                              class="cart-pro-qty"
+                              style="text-align: center"
+                            >
+                              <div class="cart-qty-plus-minus">
+                                <input
+                                  type="number"
+                                  name="cartqtybutton"
+                                  value="1"
+                                  min="1"
+                                />
+                              </div>
+                            </td>
+                            <td data-label="Total" class="cart-pro-subtotal">
+                              $95.00
+                            </td>
+                            <td data-label="Remove" class="cart-pro-remove">
+                              <a href="#">
+                                <img
+                                  class="trash-icon"
+                                  src="images/cart/trash.png"
+                                  width="25%"
+                                  height="25%"
+                                />
+                              </a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="cart-update-bottom">
+                      <a href="#" class="continue-shopping"
+                        >Continue Shopping</a
+                      >
+                      <button class="btn btn-primary btn-checkout">
+                        Check Out
+                      </button>
+                    </div>
+                  </form>
+                </div>
               </div>
-            <div class="row">
-                <div class="cart-leftside col-lg-8 col-md-12 ">
-                    <!-- cart content Start -->
-                    <div class="cart-content">
-                        <div class="cart-inner">
-                                <form action="#">
-                                    <div class="table-content cart-table-content">
-                                        <table>
-                                            <thead>
-                                                <tr>
-                                                    <th>Product</th>
-                                                    <th>Price</th>
-                                                    <th style="text-align: center;">Quantity</th>
-                                                    <th>Total</th>
-                                                    <th></th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td data-label="Product" class="cart-pro-name"><a
-                                                            href="#"><img class="cart-pro-img mr-4"
-                                                                src="images/cart/1.jpg"
-                                                                alt="" />Stylish Baby Shoes</a></td>
-                                                    <td data-label="Price" class="cart-pro-price"><span
-                                                            class="amount">$56.00</span></td>
-                                                    <td data-label="Quantity" class="cart-pro-qty"
-                                                        style="text-align: center;">
-                                                        <div class="cart-qty-plus-minus">
-                                                            <input type="number"
-                                                                name="cartqtybutton" value="1" min="1" />
-                                                        </div>
-                                                    </td>
-                                                    <td data-label="Total" class="cart-pro-subtotal">$56.00</td>
-                                                    <td data-label="Remove" class="cart-pro-remove">
-                                                        <a href="#">
-                                                            <img class="trash-icon" src="images/cart/trash.png" width="25%" height="25%">
-                                                        </a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td data-label="Product" class="cart-pro-name"><a
-                                                            href="#"><img class="cart-pro-img mr-4"
-                                                                src="images/cart/2.jpg"
-                                                                alt="" />Unisex Fully Solid Hoodie</a></td>
-                                                    <td data-label="Price" class="cart-pro-price"><span
-                                                            class="amount">$75.00</span></td>
-                                                    <td data-label="Quantity" class="cart-pro-qty"
-                                                        style="text-align: center;">
-                                                        <div class="cart-qty-plus-minus">
-                                                            <input type="number"
-                                                                name="cartqtybutton" value="1" min="1" />
-                                                        </div>
-                                                    </td>
-                                                    <td data-label="Total" class="cart-pro-subtotal">$75.00</td>
-                                                    <td data-label="Remove" class="cart-pro-remove">
-                                                        <a href="#">
-                                                            <img class="trash-icon" src="images/cart/trash.png" width="25%" height="25%">
-                                                        </a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td data-label="Product" class="cart-pro-name"><a
-                                                            href="#"><img class="cart-pro-img mr-4"
-                                                                src="images/cart/3.jpg"
-                                                                alt="" />Beautiful T-shirt For Women</a></td>
-                                                    <td data-label="Price" class="cart-pro-price"><span
-                                                            class="amount">$48.00</span></td>
-                                                    <td data-label="Quantity" class="cart-pro-qty"
-                                                        style="text-align: center;">
-                                                        <div class="cart-qty-plus-minus">
-                                                            <input type="number"
-                                                                name="cartqtybutton" value="1" min="1" />
-                                                        </div>
-                                                    </td>
-                                                    <td data-label="Total" class="cart-pro-subtotal">$48.00</td>
-                                                    <td data-label="Remove" class="cart-pro-remove">
-                                                        <a href="#">
-                                                            <img class="trash-icon" src="images/cart/trash.png" width="25%" height="25%">
-                                                        </a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td data-label="Product" class="cart-pro-name"><a
-                                                            href="#"><img class="cart-pro-img mr-4"
-                                                                src="images/cart/4.jpg"
-                                                                alt="" />Wool Hat For Men</a></td>
-                                                    <td data-label="Price" class="cart-pro-price"><span
-                                                            class="amount">$95.00</span></td>
-                                                    <td data-label="Quantity" class="cart-pro-qty"
-                                                        style="text-align: center;">
-                                                        <div class="cart-qty-plus-minus">
-                                                            <input type="number"
-                                                                name="cartqtybutton" value="1" min="1" />
-                                                        </div>
-                                                    </td>
-                                                    <td data-label="Total" class="cart-pro-subtotal">$95.00</td>
-                                                    <td data-label="Remove" class="cart-pro-remove">
-                                                        <a href="#">
-                                                            <img class="trash-icon" src="images/cart/trash.png" width="25%" height="25%">
-                                                        </a>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <div class="cart-update-bottom">
-                                        <a href="#" class="continue-shopping">Continue Shopping</a>
-                                        <button class="btn btn-primary btn-checkout">Check Out</button>
-                                    </div>
-                                </form>
-                    
-                        </div>
-                    </div>
-                    <!--cart content End -->
-                </div>
-                <!-- Sidebar Area Start -->
-                <div class="cart-rightside col-lg-4 col-md-12">
-                    <div class="sidebar-wrap">
-                        <!-- Sidebar Summary Block -->
-                        <div class="sidebar-block">
-                            <div class="sb-title">
-                                <h3 class="sidebar-title">Summary</h3>
-                            </div>
-                            <div class="sb-block-content">
-                                <h4 class="ship-title">Estimate Shipping</h4>
-                                <div class="cart-form">
-                                    <p>Enter your destination to get a shipping estimate</p>
-                                    <form action="#" method="post">
-                                        <span class="cart-wrap">
-                                            <label>Country *</label>
-                                            <span class="cart-select-inner">
-                                                <select name="ec_cart_country" id="cart-select-country"
-                                                    class="cart-select">
-                                                    <option selected="" disabled="">United States</option>
-                                                    <option value="1">Country 1</option>
-                                                    <option value="2">Country 2</option>
-                                                    <option value="3">Country 3</option>
-                                                    <option value="4">Country 4</option>
-                                                    <option value="5">Country 5</option>
-                                                </select>
-                                            </span>
-                                        </span>
-                                        <span class="cart-wrap">
-                                            <label>State/Province</label>
-                                            <span class="cart-select-inner">
-                                                <select name="ec_cart_state" id="cart-select-state"
-                                                    class="cart-select">
-                                                    <option selected="" disabled="">Please Select a region, state
-                                                    </option>
-                                                    <option value="1">Region/State 1</option>
-                                                    <option value="2">Region/State 2</option>
-                                                    <option value="3">Region/State 3</option>
-                                                    <option value="4">Region/State 4</option>
-                                                    <option value="5">Region/State 5</option>
-                                                </select>
-                                            </span>
-                                        </span>
-                                        <span class="cart-wrap">
-                                            <label>Zip/Postal Code</label>
-                                            <input type="text" name="postalcode" placeholder="Zip/Postal Code">
-                                        </span>
-                                    </form>
-                                </div>
-                            </div>
-
-                            <div class="sb-block-content">
-                                <div class="cart-summary-bottom">
-                                    <div class="cart-summary">
-                                        <div>
-                                            <span class="text-left">Sub-Total</span>
-                                            <span class="text-right">$80.00</span>
-                                        </div>
-                                        <div>
-                                            <span class="text-left">Delivery Charges</span>
-                                            <span class="text-right">$80.00</span>
-                                        </div>
-                                        <div>
-                                            <span class="text-left">Coupon Discount</span>
-                                        </div>
-                                        <div class="cart-coupon-content">
-                                            <form class="cart-coupon-form" name="cart-coupon-form" method="post"
-                                                action="#">
-                                                <input class="coupon" type="text" required=""
-                                                    placeholder="Enter Your coupon Code" name="coupon" value="">
-                                                <button class="coupon-btn button btn-primary" type="submit"
-                                                    name="subscribe" value="">Apply</button>
-                                            </form>
-                                        </div>
-                                        <div class="cart-summary-total">
-                                            <span class="text-left">Total Amount</span>
-                                            <span class="text-right">$80.00</span>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Sidebar Summary Block -->
-                    </div>
-                </div>
+              <!--cart content End -->
             </div>
+            <!-- Sidebar Area Start -->
+            <div class="cart-rightside col-lg-4 col-md-12">
+              <div class="sidebar-wrap">
+                <!-- Sidebar Summary Block -->
+                <div class="sidebar-block">
+                  <div class="sb-title">
+                    <h3 class="sidebar-title">Summary</h3>
+                  </div>
+                  <div class="sb-block-content">
+                    <h4 class="ship-title">Estimate Shipping</h4>
+                    <div class="cart-form">
+                      <p>Enter your destination to get a shipping estimate</p>
+                      <form action="#" method="post">
+                        <span class="cart-wrap">
+                          <label>Country *</label>
+                          <span class="cart-select-inner">
+                            <select
+                              name="ec_cart_country"
+                              id="cart-select-country"
+                              class="cart-select"
+                            >
+                              <option selected="" disabled="">
+                                United States
+                              </option>
+                              <option value="1">Country 1</option>
+                              <option value="2">Country 2</option>
+                              <option value="3">Country 3</option>
+                              <option value="4">Country 4</option>
+                              <option value="5">Country 5</option>
+                            </select>
+                          </span>
+                        </span>
+                        <span class="cart-wrap">
+                          <label>State/Province</label>
+                          <span class="cart-select-inner">
+                            <select
+                              name="ec_cart_state"
+                              id="cart-select-state"
+                              class="cart-select"
+                            >
+                              <option selected="" disabled="">
+                                Please Select a region, state
+                              </option>
+                              <option value="1">Region/State 1</option>
+                              <option value="2">Region/State 2</option>
+                              <option value="3">Region/State 3</option>
+                              <option value="4">Region/State 4</option>
+                              <option value="5">Region/State 5</option>
+                            </select>
+                          </span>
+                        </span>
+                        <span class="cart-wrap">
+                          <label>Zip/Postal Code</label>
+                          <input
+                            type="text"
+                            name="postalcode"
+                            placeholder="Zip/Postal Code"
+                          />
+                        </span>
+                      </form>
+                    </div>
+                  </div>
+
+                  <div class="sb-block-content">
+                    <div class="cart-summary-bottom">
+                      <div class="cart-summary">
+                        <div>
+                          <span class="text-left">Sub-Total</span>
+                          <span class="text-right">$80.00</span>
+                        </div>
+                        <div>
+                          <span class="text-left">Delivery Charges</span>
+                          <span class="text-right">$80.00</span>
+                        </div>
+                        <div>
+                          <span class="text-left">Coupon Discount</span>
+                        </div>
+                        <div class="cart-coupon-content">
+                          <form
+                            class="cart-coupon-form"
+                            name="cart-coupon-form"
+                            method="post"
+                            action="#"
+                          >
+                            <input
+                              class="coupon"
+                              type="text"
+                              required=""
+                              placeholder="Enter Your coupon Code"
+                              name="coupon"
+                              value=""
+                            />
+                            <button
+                              class="coupon-btn button btn-primary"
+                              type="submit"
+                              name="subscribe"
+                              value=""
+                            >
+                              Apply
+                            </button>
+                          </form>
+                        </div>
+                        <div class="cart-summary-total">
+                          <span class="text-left">Total Amount</span>
+                          <span class="text-right">$80.00</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Sidebar Summary Block -->
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      
     </main>
     <footer class="footer-wrapper">
       <span>&copy; All rights reserved. Group 5 | Lambton College 2022</span>
