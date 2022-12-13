@@ -6,11 +6,14 @@
   /* Style inputs */
   .contact-text, select, textarea {
     width: 100%;
+    height: 50px;
     margin-top: 6px;
     margin-bottom: 16px;
     padding: 12px;
     border: 1px solid #ccc;
     resize: vertical;
+    font-size: 16px;
+    font-family: inherit;
   }
   
   input[type=submit] {
