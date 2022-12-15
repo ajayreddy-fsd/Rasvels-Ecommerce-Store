@@ -9,7 +9,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-
 <body class="checkout_page">
     <header>
         <div class="logo">
@@ -46,7 +45,7 @@
                                         <h3 class="checkout-title">Billing Details</h3>
                                         <div class="bl-block-content">
                                             <div class="check-bill-form">
-                                                <form action="#" method="post">
+                                                <form id="myform" action="thankyou.html" method="post">
                                                     <span class="bill-wrap bill-half">
                                                         <label>First Name <span style="color: red;">*</span></label>
                                                         <input type="text" name="firstname"
@@ -60,7 +59,7 @@
                                                     <span class="bill-wrap">
                                                         <label>Address <span style="color: red;">*</span></label>
                                                         <input type="text" name="address"
-                                                            placeholder="Address Line 1" />
+                                                            placeholder="Address Line 1" required/>
                                                     </span>
                                                     <span class="bill-wrap bill-half">
                                                         <label>City</label>
@@ -71,7 +70,7 @@
                                                                 <option value="1">New York</option>
                                                                 <option value="2">Sydney</option>
                                                                 <option value="3">California</option>
-                                                                <option value="4">LosAngeles</option>
+                                                                <option value="4">Los Angeles</option>
                                                             </select>
                                                         </span>
                                                     </span>
@@ -86,7 +85,7 @@
                                                                 class="bill-select">
                                                                 <option selected disabled>Canada</option>
                                                                 <option value="1">Australia</option>
-                                                                <option value="2">United State</option>
+                                                                <option value="2">United States</option>
 
                                                             </select>
                                                         </span>
@@ -100,10 +99,19 @@
                                                                 <option value="1">New York</option>
                                                                 <option value="2">Sydney</option>
                                                                 <option value="3">California</option>
-                                                                <option value="4">LosAngeles</option>
+                                                                <option value="4">Los Angeles</option>
                                                             </select>
                                                         </span>
                                                     </span>
+                                                    <span class="bill-wrap">
+                                                        
+                                                        <span class="check-order-btn">
+                                                            <button class="btn btn-primary btn-checkout">
+                                                                Place Order
+                                                              </button>
+                                                        </span>
+                                                    </span>
+                                                    
                                                 </form>
                                             </div>
 
@@ -111,9 +119,9 @@
                                     </div>
 
                                 </div>
-                                <span class="check-order-btn">
-                                    <a class="btn btn-primary" href="thankyou.html">Place Order</a>
-                                </span>
+                                <!-- <span class="check-order-btn">
+                                    <a id="mysubmit" class="btn btn-primary">Place Order</a>
+                                </span> -->
                             </div>
                         </div>
                         <!--cart content End -->
@@ -204,5 +212,4 @@
         <span>&copy; All rights reserved. Group 5 | Lambton College 2022</span>
     </footer>
 </body>
-
 </html>

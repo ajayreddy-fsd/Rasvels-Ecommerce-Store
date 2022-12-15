@@ -473,7 +473,7 @@ textarea {
         width: 40%;
     }
     .btn-checkout {
-        width: 100%;
+        width: 100% !important;
     }
 
  }
