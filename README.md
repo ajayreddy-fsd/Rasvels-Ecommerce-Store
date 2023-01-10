@@ -1,4 +1,4 @@
-# Rasvels-Ecommerce-Store-
+# Rasvels Ecommerce Store
 
 ### PURPOSE OF THE WEBSITE
 Rasvel's is an e-commerce store built to allow customers to shop a vast selection of clothing, groceries, kitchen accessories, and home furnishings at affordable prices without the need to leave the safety of their home.
@@ -18,5 +18,4 @@ The website uses minimalistic colors such as black, white, and yellow to make th
 ### TYPOGRAPHY
 The website uses Poppins font style for product lists, paragraphs, and other content to make it easier to read.
 
-For more details about the website and for its wireframes and sitemap, please visit the _Technical Documentation_ document.
-Please feel free to checkout our website through this link [Rasvel's](https://rasvels.netlify.app/)
+For more details about the website and for its wireframes and sitemap, please visit the _Technical Documentation_ document and please feel free to checkout our website at this link _[Rasvel's](https://rasvels.netlify.app/)_
